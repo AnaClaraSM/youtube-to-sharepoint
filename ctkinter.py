@@ -68,7 +68,7 @@ entry_sharepoint = ctk.CTkEntry(app, placeholder_text="Insira o URL da página d
 entry_sharepoint.pack(pady=(3,10))
 
 # Botão
-button_iniciar = ctk.CTkButton(app, text="Iniciar", command=get_user_urls)
+button_iniciar = ctk.CTkButton(app, text="Iniciar", command=get_user_urls2)
 button_iniciar.pack(pady=(15,10))
 
 # Label
