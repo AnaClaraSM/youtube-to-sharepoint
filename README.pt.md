@@ -7,11 +7,11 @@ Ideal para equipes internas que frequentemente publicam conteúdo de vídeo em p
 
 ## 🎯 O que ele faz
 
-* Coleta todos os vídeos de uma playlist pública do YouTube.
-* Requer login manual no Microsoft Office 365.
-* Insere os links dos vídeos do YouTube em webparts pré-definidos no SharePoint.
-* Publica a página do SharePoint atualizada.
-* Suporta uma interface gráfica para input; o modo headless ainda não foi implementado.
+- Coleta todos os vídeos de uma playlist pública do YouTube.
+- Requer login manual no Microsoft Office 365.
+- Insere os links dos vídeos do YouTube em webparts pré-definidos no SharePoint.
+- Publica a página do SharePoint atualizada.
+- Suporta uma interface gráfica para input; o modo headless ainda não foi implementado.
 
 ---
 
@@ -39,21 +39,22 @@ python main.py
 
 Será solicitado que você insira:
 
-* A URL da Playlist do YouTube
-* A URL da página do SharePoint
+- A URL da Playlist do YouTube
+- A URL da página do SharePoint
+- Login do Office (quando direcionado à página)
 
 ---
 
 ## 💼 Requisitos
 
-* Python 3.8+
-* Google Chrome ou Edge instalados
-* ChromeDriver ou EdgeDriver instalados e no PATH
-* Permissões de edição no SharePoint
-* Pacotes Python necessários:
+- Python 3.8+
+- Google Chrome ou Edge instalados
+- ChromeDriver ou EdgeDriver instalados e no PATH
+- Permissões de edição no SharePoint
+- Pacotes Python necessários:
 
-  * selenium
-  * customtkinter (melhorias futuras)
+  - selenium
+  - customtkinter (melhorias futuras)
 
 > ✅ Testado no Windows 10 e Chrome 122+
 
@@ -83,10 +84,10 @@ Será solicitado que você insira:
 
 ## ⚠️ Notas
 
-* Certifique-se de que a página do SharePoint tenha o **número exato** de webparts do YouTube, de acordo com o número de vídeos na playlist (excluindo os ocultos).
-* O script **não cria webparts**, ele apenas preenche-os.
-* O login no Office 365 deve ser feito **manualmente na janela do navegador aberta pelo aplicativo**.
-* Atualmente, suporta apenas playlists do YouTube **públicas** ou **não listadas**.
+- Certifique-se de que a página do SharePoint tenha o **número exato** de webparts do YouTube, de acordo com o número de vídeos na playlist (excluindo os ocultos).
+- O script **não cria webparts**, ele apenas preenche-os.
+- O login no Office 365 deve ser feito **manualmente na janela do navegador aberta pelo aplicativo**.
+- Atualmente, suporta apenas playlists do YouTube **públicas** ou **não listadas**.
 
 ---
 

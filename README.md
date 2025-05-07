@@ -40,6 +40,7 @@ python main.py
 You'll be prompted to paste:
 - The YouTube Playlist URL
 - The SharePoint page URL
+- Office Login (when directed to the page)
 
 ---
 
