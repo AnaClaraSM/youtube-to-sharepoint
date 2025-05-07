@@ -34,6 +34,7 @@ pip install -r requirements.txt
 ### 2. Rodar o script
 
 ```bash
+cd youtube_to_sharepoint
 python main.py
 ```
 
