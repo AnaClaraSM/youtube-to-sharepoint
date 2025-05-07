@@ -1,0 +1,2 @@
+customtkinter==5.2.2 # For future GUI improvements
+selenium==4.32.0

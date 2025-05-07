@@ -1,5 +1,6 @@
-
 # YouTube to SharePoint
+
+[🇧🇷 Versão em Português](README.pt.md)
 
 Automate the process of embedding videos from a YouTube playlist directly into a SharePoint page.  
 Ideal for internal teams who frequently publish video content in corporate portals.
@@ -7,10 +8,10 @@ Ideal for internal teams who frequently publish video content in corporate porta
 ## 🎯 What It Does
 
 - Collects all videos from a public YouTube playlist.
-- Automatically logs into Microsoft Office 365.
+- Requires manual login to Microsoft Office 365.
 - Inserts YouTube video links into predefined SharePoint webparts.
 - Publishes the updated SharePoint page.
-- Supports GUI for input and headless browsing for automation.
+- Supports a GUI for input; headless mode not yet implemented.
 
 ---
 
@@ -50,8 +51,7 @@ You'll be prompted to paste:
 - SharePoint editing permissions
 - Required Python packages:
   - selenium
-  - beautifulsoup4
-  - tkinter
+  - customtkinter (future enhancements)
 
 > ✅ Tested on Windows 10 and Chrome 122+
 
@@ -71,14 +71,17 @@ You'll be prompted to paste:
  ┃ ┗ 📄 variables.py
  ┣ 📄 inputs.py
  ┣ 📄 main.py
- ┗ 📄 README.md
+ ┣ 📄 LICENSE
+ ┣ 📄 README.md          ← Main (English)
+ ┣ 📄 README.pt.md       ← Portuguese version
+ ┗ 📄 requirements.txt
 ```
 
 ---
 
 ## ⚠️ Notes
 
-- Ensure your SharePoint page has the **exact number** of "Add video" placeholders as the number of videos in the playlist.
+- Ensure your SharePoint page has the **exact number** of YouTube webparts as the number of videos in the playlist (excluding the hidden ones).
 - The script **does not create webparts**, only fills them.
 - The login to Office 365 must be performed **manually in the browser window opened by the application**.
 - Currently supports only **public** or **unlisted** YouTube playlists.
