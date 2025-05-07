@@ -62,7 +62,7 @@ You'll be prompted to paste:
 
 ```
 📦 youtube-to-sharepoint
- ┣ 📁 automacao
+ ┣ 📁 automation
  ┃ ┣ 📄 driver.py
  ┃ ┣ 📄 login_office.py
  ┃ ┣ 📄 youtube.py

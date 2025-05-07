@@ -64,7 +64,7 @@ Será solicitado que você insira:
 
 ```
 📦 youtube-to-sharepoint
- ┣ 📁 automacao
+ ┣ 📁 automation
  ┃ ┣ 📄 driver.py
  ┃ ┣ 📄 login_office.py
  ┃ ┣ 📄 youtube.py
