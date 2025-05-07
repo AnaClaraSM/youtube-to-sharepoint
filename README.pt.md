@@ -26,7 +26,7 @@ Ideal para equipes internas que frequentemente publicam conteúdo de vídeo em p
 ### 1. Clonar e instalar dependências
 
 ```bash
-git clone https://github.com/seu-usuario/youtube-to-sharepoint.git
+git clone https://github.com/AnaClaraSM/youtube-to-sharepoint.git
 cd youtube-to-sharepoint
 pip install -r requirements.txt
 ```
